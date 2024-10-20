@@ -17,9 +17,9 @@ const Card = ({ product }) => {
                 <img src={product.image} alt={product.title} /> 
             </div>
             <div className="product-content">
-                <span className="category">{product.category}</span> 
+                <span className="category">Telefon</span> 
                 <h2 className='product-name'>
-                    <a href="">{product.title}</a> 
+                    <a href="">{product.name}</a> 
                 </h2>
                 <div className="circle"></div>
                 <ul className="stars">
