@@ -4,7 +4,7 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import './carousel.css';
+import './carousel2.css';
 import { fetchProducts } from '../../api/api'; 
 
 const Carusel = ({ apiUrl }) => { 

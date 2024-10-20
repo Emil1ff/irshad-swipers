@@ -1,5 +1,5 @@
 import React from 'react'
-import Carusel from '../Carousel/Carusel'
+import Carousel2 from '../Carousel/Carousel2'
 import './two.css'
 import Mark from '../Carousel-mark/Mark'
 
@@ -11,7 +11,7 @@ const SecTwo = () => {
                     <a className='popular' href="">Populyar məhsullar</a>
                     <a className='new' href="">Yeni məhsullar</a>
                 </div>
-                <Carusel apiUrl="https://fakestoreapi.com/products" />
+                <Carousel2 apiUrl="https://fakestoreapi.com/products" />
                 <Mark />
             </div>
         </section>

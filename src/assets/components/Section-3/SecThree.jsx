@@ -1,6 +1,6 @@
 import React from 'react'
 import './three.css'
-import Carusel from '../Carousel/Carusel'
+import Carousel2 from '../Carousel/Carousel2'
 
 const SecThree = () => {
     return (
@@ -10,7 +10,7 @@ const SecThree = () => {
                     <a className='popular' href="">Çox satılanlar</a>
                     <a className='new' href="">Endirimli məhsullar</a>
                 </div>
-                <Carusel apiUrl={"https://fakestoreapi.com/products"}/>
+                <Carousel2 apiUrl={"https://fakestoreapi.com/products"}/>
             </div>
         </section>
     )
